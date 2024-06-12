@@ -112,7 +112,7 @@ class DigitalTwin:
                            c1=self.c1,c2=self.c2,Isat=self.Isat,alpha=self.alpha)
 
 
-    def run(self, backend = 2, device = 0):
+    def run(self, backend = 2, device = 0, win = None, win2 = None):
         win = af.graphics.Window(width=600, height=600, title='Envelope1')
         win2 = af.graphics.Window(width=600, height=600, title='Envelope2')
 
